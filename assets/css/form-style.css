@@ -1,0 +1,109 @@
+/* GLOBAL ITEMS */
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+/* BODY */
+body {
+    background-color: #7359DC;
+
+}
+
+.container {
+    position: absolute;
+    top: calc(50% - 348px);
+    left: calc(50% - 250px);
+    background: #E5E5E5;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 500px;
+    height: 690px;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.container header {
+    line-height: 26px;
+    position: absolute;
+    top: 59px;
+    left: calc(50% - 108.5px);
+
+}
+
+.container #contactForm {
+    position: absolute;
+    top: 145px;
+    left: calc(50% - 210px);
+    width: 420px;
+    height: auto;
+
+}
+
+#contactForm>input,
+#contactForm>textarea {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /*     position: absolute;
+    left: 3.33%;
+    right: 83.33%;
+    top: 27.5%;
+    bottom: 25%; */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #C4C4C4;
+
+
+}
+
+
+
+
+#contactForm>button {
+    width: 420px;
+    height: 50px;
+
+    background: #7359DC;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+
+}
+
+
+#firstname,
+#lastname,
+#email,
+#subject {
+    width: 420px;
+    height: 40px;
+    padding-left: 14px;
+}
+
+#message {
+    width: 420px;
+    height: 200px;
+    padding-left: 14px;
+    padding-top: 12px;
+}
